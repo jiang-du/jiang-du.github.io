@@ -755,17 +755,29 @@ webpackJsonp([1], {
                 },
                 [i("div", [t._v("\n\t© 2018\n\t"), i("a", {
                     attrs: {
+                        href: "https://github.com/jiang-du",
+                        target: "_blank"
+                    }
+                },
+                [i("div", [t._v("\t Jiang Du \t"), i("a", {
+                    attrs: {
                         href: "https://github.com/GitHub-Laziji",
                         target: "_blank"
                     }
                 },
-                [t._v("GitHub-Laziji")]), t._v("  \n\t\t\t\t"), i("a", {
+                [t._v("\t GitHub-Laziji \t")]), t._v("  \n\t\t"), i("a", {
+                    attrs: {
+                        href: "https://github.com/jiang-du/jiang-du.github.io",
+                        target: "_blank"
+                    }
+                },
+                [t._v("This Project")]), t._v("  \n\t\t"), i("a", {
                     attrs: {
                         href: "https://github.com/GitHub-Laziji/vblog",
                         target: "_blank"
                     }
                 },
-                [t._v("Original Project")])])]), t._v(" "), i("el-col", {
+                [t._v("Initial Project")])])]), t._v(" "), i("el-col", {
                     attrs: {
                         span: 4
                     }
@@ -1029,12 +1041,12 @@ webpackJsonp([1], {
                         index: "#githubHome"
                     }
                 },
-                [t._v("Github Profile")]), t._v(" "), i("el-menu-item", {
+                [t._v("我在开源社区")]), t._v(" "), i("el-menu-item", {
                     attrs: {
                         index: "#blog"
                     }
                 },
-                [t._v("All Blogs")])], 2), t._v(" "), t.webSites.length > 0 ? i("el-submenu", {
+                [t._v("我的博客")])], 2), t._v(" "), t.webSites.length > 0 ? i("el-submenu", {
                     attrs: {
                         index: "#webSites"
                     }

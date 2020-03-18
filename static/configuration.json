@@ -1,8 +1,8 @@
 {
     "githubUsername": "jiang-du",
-    "blogTitle": "论文阅读学习与分享",
+    "blogTitle": "文章阅读与分享",
     "blogDescribe": "计算机视觉与深度学习爱好者",
-    "htmlTitle": "AI论文阅读学习与分享",
+    "htmlTitle": "文章阅读与分享",
     "fontColor": "#ffffff",
     "useBackgroundImage": false,
     "backgroundColorLeft": "#2690F9",
@@ -11,7 +11,17 @@
     "audioAutoPlay": true,
     "mini": false,
     "webSites":[
-        {"name":"西电主页","url":"http://www.xidian.edu.cn/"},
-        {"name":"实验室招生","url":"https://web.xidian.edu.cn/gmshi/"}
+        {
+            "name": "招生简介",
+            "url": "https://web.xidian.edu.cn/gmshi/"
+        },
+        {
+            "name": "学校官网",
+            "url": "http://www.xidian.edu.cn/"
+        },
+        {
+            "name": "谷歌学术",
+            "url": "https://scholar.google.com/citations?user=84GeuSwAAAAJ&hl=en"
+        }
     ]
 }
