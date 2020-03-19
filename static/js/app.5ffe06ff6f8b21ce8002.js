@@ -305,6 +305,7 @@ webpackJsonp([1], {
         z = {
             state: {
                 githubUsername: "",
+                nickName: "",
                 blogTitle: "",
                 blogDescribe: "",
                 htmlTitle: "",
@@ -1680,7 +1681,7 @@ webpackJsonp([1], {
                         color: "#dddddd"
                     }
                 },
-                [i("b", [t._v("(￢_￢) 嘤，还没有粉丝，继续努力哦~")])])], 1)])]), t._v(" "), i("el-tab-pane", {
+                [i("b", [t._v("(￢_￢) 嘤，还没有粉丝，继续努力哦~")])])], 1)])]), t._v(" "), i("el-tab-pane", {                                          
                     staticStyle: {
                         padding: "5px"
                     },
