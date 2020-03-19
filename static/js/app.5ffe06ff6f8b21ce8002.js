@@ -319,7 +319,8 @@ webpackJsonp([1], {
             },
             mutations: {
                 SET_CONFIGURATION: function(t, e) {
-                    t.githubUsername = e.githubUsername || "jiang-du",
+                    t.githubUsername = e.githubUsername || "NULL",
+                    t.nickName = e.nickName || "Nick Name",
                     t.blogTitle = e.blogTitle || t.githubUsername,
                     t.blogDescribe = e.blogDescribe || "Welcome to " + t.githubUsername + "\'s website",
                     t.htmlTitle = e.htmlTitle || t.githubUsername + "\'s website",
@@ -989,14 +990,14 @@ webpackJsonp([1], {
                         target: "_blank"
                     }
                 },
-                [t._v("关注我的GitHub")]), t._v(" "), t.mini ? t._e() : i("a", {
+                [t._v("在GitHub上关注我")]), t._v(" "), t.mini ? t._e() : i("a", {
                     staticClass: "btn",
                     attrs: {
                         href: "https://github.com/" + t.githubUsername + "/" + t.githubUsername + ".github.io",
                         target: "_blank"
                     }
                 },
-                [t._v("博客项目源码")])], 2), t._v(" "), i("div", {
+                [t._v("网站源代码")])], 2), t._v(" "), i("div", {
                     staticStyle: {
                         position: "relative",
                         "z-index": "2",
@@ -1054,7 +1055,7 @@ webpackJsonp([1], {
                 [i("template", {
                     slot: "title"
                 },
-                [t._v("网址导航")]), t._v(" "), t._l(t.webSites,
+                [t._v("出来逛逛")]), t._v(" "), t._l(t.webSites,
                 function(e, n) {
                     return i("el-menu-item", {
                         key: "#webSites" + n,
@@ -1199,14 +1200,17 @@ webpackJsonp([1], {
                         "margin-top": "5px"
                     }
                 },
-                [i("b", [t._v(t._s(t.githubUsername))])]), t._v(" "), i("div", {
+                [i("b", [t._v(t._s(t.NickName))])]), t._v(" "), i("div", {
                     staticStyle: {
                         color: "#606266"
                     }
                 },
                 [i("i", {
                     staticClass: "el-icon-location"
-                }), t._v(" " + t._s(t.location ? t.location: "获取地址失败，默认火星") + "\n                        "), i("br")])]), t._v(" "), i("el-col", {
+                }), 
+                t._v(" " + t._s(t.location ? t.location: "嘤，获取地址失败，默认火星~") + "\n                        "), 
+                i("br")])]), t._v(" "), i("el-col", 
+                {
                     staticStyle: {
                         "text-align": "center"
                     },
@@ -2089,7 +2093,7 @@ webpackJsonp([1], {
                         width: "300px"
                     },
                     attrs: {
-                        placeholder: "请输入关键字",
+                        placeholder: "喵，请输入您想搜索的文章关键词~",
                         clearable: ""
                     },
                     model: {
@@ -2140,7 +2144,7 @@ webpackJsonp([1], {
                         click: t.goAdd
                     }
                 },
-                [t._v("写博文")])], 1), t._v(" "), t.blogs && t.blogs.length > 0 ? i("div", [t._l(t.blogs,
+                [t._v("写新文章")])], 1), t._v(" "), t.blogs && t.blogs.length > 0 ? i("div", [t._l(t.blogs,
                 function(e, n) {
                     return e.hide ? t._e() : i("el-card", {
                         key: "p" + n,
