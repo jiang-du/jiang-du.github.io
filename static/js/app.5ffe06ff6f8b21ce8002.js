@@ -759,7 +759,7 @@ webpackJsonp([1], {
                         target: "_blank"
                     }
                 },
-                [i("div", [t._v("\t Jiang Du \t"), i("a", {
+                [t._v("\t Jiang Du \t")]), i("a", {
                     attrs: {
                         href: "https://github.com/GitHub-Laziji",
                         target: "_blank"
