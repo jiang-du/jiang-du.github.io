@@ -353,6 +353,9 @@ webpackJsonp([1], {
             githubUsername: function(t) {
                 return t.configuration.githubUsername
             },
+            nickName: function(t) {
+                return t.configuration.nickName
+            },
             blogTitle: function(t) {
                 return t.configuration.blogTitle
             },
@@ -862,7 +865,7 @@ webpackJsonp([1], {
                 }
             },
             computed: a()({},
-            Object(r.b)(["githubUsername", "blogTitle", "blogDescribe", "avatarUrl", "name", "location", "blog", "fontColor", "useBackgroundImage", "backgroundColorLeft", "backgroundColorRight", "audioUrl", "mini", "followersTotal", "followingTotal", "audioAutoPlay", "webSites"])),
+            Object(r.b)(["githubUsername", "nickName", "blogTitle", "blogDescribe", "avatarUrl", "name", "location", "blog", "fontColor", "useBackgroundImage", "backgroundColorLeft", "backgroundColorRight", "audioUrl", "mini", "followersTotal", "followingTotal", "audioAutoPlay", "webSites"])),
             watch: {
                 "$refs.music.currentTime": function() {
                     console.log(this.$refs.music.currentTime)
