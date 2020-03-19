@@ -753,13 +753,13 @@ webpackJsonp([1], {
                         span: 10
                     }
                 },
-                [i("div", [t._v("\n\t© 2018\n\t"), i("a", {
+                [i("div", [t._v("\n\t© 2020\n\t"), t._v("  \n\t\t"), i("a", {
                     attrs: {
                         href: "https://github.com/jiang-du",
                         target: "_blank"
                     }
                 },
-                [t._v("\t Jiang Du \t")]), i("a", {
+                [t._v("\t Jiang Du \t")]), t._v("  \n\t\t"), i("a", {
                     attrs: {
                         href: "https://github.com/GitHub-Laziji",
                         target: "_blank"
@@ -777,7 +777,7 @@ webpackJsonp([1], {
                         target: "_blank"
                     }
                 },
-                [t._v("Initial Project")])])]), t._v(" "), i("el-col", {
+                [t._v("Initial Version")])])]), t._v(" "), i("el-col", {
                     attrs: {
                         span: 4
                     }
