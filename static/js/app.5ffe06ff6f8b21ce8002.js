@@ -1204,7 +1204,7 @@ webpackJsonp([1], {
                         "margin-top": "5px"
                     }
                 },
-                [i("b", [t._v(t._s(t.NickName))])]), t._v(" "), i("div", {
+                [i("b", [t._v(t._s(t.NickName ? t.NickName: "暂无网名"))])]), t._v(" "), i("div", {
                     staticStyle: {
                         color: "#606266"
                     }
@@ -5137,7 +5137,7 @@ webpackJsonp([1], {
                 }
             }]
         },
-/*
+// 这里暂不注释
         {
             path: "/user/readme",
             redirect: "/user/readme/main",
@@ -5145,16 +5145,18 @@ webpackJsonp([1], {
             meta: {
                 type: "user",
                 icon: "el-icon-document",
-                title: "README.md"
+                title: "网站说明"
             },
             children: [{
                 path: "main",
                 component: Ut,
                 meta: {
-                    title: "README.md"
+                    title: "网站说明.md"
                 }
             }]
         },
+/*
+// 系统配置，暂时不需要，因为我选择直接改json文件
         {
             path: "/user/configure",
             redirect: "/user/configure/main",
