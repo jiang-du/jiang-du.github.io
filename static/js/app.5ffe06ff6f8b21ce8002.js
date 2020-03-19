@@ -753,13 +753,13 @@ webpackJsonp([1], {
                         span: 10
                     }
                 },
-                [i("div", [t._v("\n\t© 2020\n\t"), t._v("  \n\t\t"), i("a", {
+                [i("div", [t._v("\n\t© 2020\n\t"), t._v("  \n\t"), i("a", {
                     attrs: {
                         href: "https://github.com/jiang-du",
                         target: "_blank"
                     }
                 },
-                [t._v("\t Jiang Du \t")]), t._v("  \n\t\t"), i("a", {
+                [t._v("Jiang Du")]), t._v("  \n\t"), i("a", {
                     attrs: {
                         href: "https://github.com/GitHub-Laziji",
                         target: "_blank"
