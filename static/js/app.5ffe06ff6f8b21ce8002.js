@@ -5151,7 +5151,7 @@ webpackJsonp([1], {
                 path: "main",
                 component: Ut,
                 meta: {
-                    title: "网站说明.md"
+                    title: "网站说明"
                 }
             }]
         },
